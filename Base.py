@@ -105,7 +105,7 @@ def open_pdf_viewer():
 # Buttons
 Button(frame, text="Merge PDFs", command=open_merge_window, **btn_style, bg="#28a745").pack(pady=5)
 Button(frame, text="Rotate pages", command=open_rotate_window, **btn_style, bg="#17a2b8").pack(pady=5)
-Button(frame, text="Convert PDF to Word", command=open_converter, **btn_style, bg="#dc3545").pack(pady=5)
+Button(frame, text="Convert PDF to Word File", command=open_converter, **btn_style, bg="#dc3545").pack(pady=5)
 Button(frame, text="Search Text in PDF", command=open_search, **btn_style, bg="#6f42c1").pack(pady=5)
 Button(frame, text="Compress PDF", command=open_compress_window, **btn_style, bg="#ffc107").pack(pady=5)
 Button(root, text="View PDF", command=open_pdf_viewer, **btn_style, bg="#007bff").pack(pady=5)
